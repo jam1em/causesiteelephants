@@ -1,0 +1,106 @@
+body{
+	background : black;
+	color 	: white;
+	margin 	: 0px;
+	padding : 0px;
+	font-family: sans-serif;
+}
+
+nav{
+	background: rgba(0,20,1,8);
+	width 		: 45%;
+	position 	: fixed;
+	top 		: 0px;
+	right 		: 0px;
+	z-index 	: 10;
+}
+
+nav ul{
+	list-style	:none;
+	padding 	: 0px;
+	margin 		: 0px;
+
+}
+
+nav ul li{
+	color 	: white;
+	width 	: 30%;
+	display : inline-block;
+	text-align 	: center;
+	padding-top : 10px;
+	padding-bottom: 10px;
+}
+
+nav ul li:hover{
+	background : rgba(240, 238, 100, 60);
+	color : black;
+}
+
+.donateBanner{
+background: url(http://foreverelephants.org/wp-content/uploads/2013/05/elephantsincrisisbanner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height : 50vh;
+  border-radius:0px;
+
+}
+
+.volunteerBanner{
+	background: url(https://tameyourpractice.com/sites/default/files/JungleBanner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height : 50vh;
+  border-radius:0px;
+}
+
+.nopadding{
+	padding 	: 0px;
+}
+
+.nomargin{
+	margin 		: 0px;
+}
+
+.item{
+	height : 660px;
+	margin-bottom: 100px;
+	background: rgba(0,0,0,30);
+}
+.item img {
+	width : 100%;
+	
+}
+
+.carousel{
+	/*height 	: 500px;*/
+}
+
+.thumbnail{
+	border : 0px;
+	height : 666px;
+	background: rgba(259,255,259,.10);
+	color : blue;
+}
+
+.thumbnail .caption h3{
+	color: green;
+}
+
+.thumbnail .caption p{
+	color: white;
+}
+
+
+form{
+	background : rgba(259,255,259,.10);
+	padding : 100px;
+	letter-spacing : 3px;
+}
+
+.inputs{
+	width : 250px;
+}
